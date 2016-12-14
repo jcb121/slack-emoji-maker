@@ -1,0 +1,31 @@
+{
+  "name": "slack-emoji-maker",
+  "version": "1.0.0",
+  "description": "a tool to upload images as emojis in slack",
+  "main": "index.js",
+  "dependencies": {
+    "easyimage": "^2.1.0",
+    "glob": "^7.1.1",
+    "phantom": "^3.2.1",
+    "selenium-webdriver": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcb121/slack-emoji-maker.git"
+  },
+  "keywords": [
+    "slack",
+    "emoji"
+  ],
+  "author": "Jesse Baker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcb121/slack-emoji-maker/issues"
+  },
+  "homepage": "https://github.com/jcb121/slack-emoji-maker#readme"
+}
